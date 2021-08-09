@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">EzTalk</string>
+    <string-array name="relation">
+        <item>Family</item>
+        <item>Friends </item>
+        <item>Close Friends</item>
+        <item>Other</item>
+    </string-array>
 </resources>
