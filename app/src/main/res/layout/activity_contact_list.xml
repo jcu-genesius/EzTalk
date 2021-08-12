@@ -12,8 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:text="Asmita "
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
@@ -23,9 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
-        android:text="Jay"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:text="Randhir"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
@@ -35,6 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
         android:text="Contact"
+        android:textSize="36sp"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +47,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="Eztalk here"
+        android:background="@color/blue_crayola"
+        app:backgroundTint="@color/blue_crayola"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -60,6 +61,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="Add"
+        android:background="@color/orange_outrageous"
+        app:backgroundTint="@color/orange_outrageous"
         app:layout_constraintBottom_toTopOf="@+id/Tellbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Edit" />
@@ -71,6 +74,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginBottom="16dp"
         android:text="Edit"
+        android:background="@color/orange_outrageous"
+        app:backgroundTint="@color/orange_outrageous"
         app:layout_constraintBottom_toTopOf="@+id/Tellbutton"
         app:layout_constraintEnd_toStartOf="@+id/AddBtn"
         app:layout_constraintStart_toStartOf="parent" />
@@ -81,9 +86,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="8dp"
-        android:text="Justina"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:text="Jay"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 

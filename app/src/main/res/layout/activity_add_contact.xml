@@ -27,6 +27,7 @@
         android:text="Uni Friend"
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
         android:textSize="16sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
@@ -37,7 +38,7 @@
         android:layout_marginTop="34dp"
         android:text="Contact "
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-        android:textSize="24sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,6 +51,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="Eztalk here"
+        android:background="@color/blue_crayola"
+        app:backgroundTint="@color/blue_crayola"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.441"
@@ -60,10 +63,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:text="Name : "
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
-        android:textSize="16sp"
+        android:textSize="28sp"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -73,10 +76,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
         android:text="Phone  :"
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
-        android:textSize="16sp"
+        android:textSize="28sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -85,10 +88,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:text="Relationship :"
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
-        android:textSize="16sp"
+        android:textSize="28sp"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -110,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="6dp"
         android:ems="10"
         android:inputType="textPersonName"
@@ -123,7 +127,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="6dp"
         android:ems="10"
         android:inputType="number"
@@ -152,6 +156,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="Save"
+        android:background="@color/orange_outrageous"
+        app:backgroundTint="@color/orange_outrageous"
+
         app:layout_constraintBottom_toTopOf="@+id/confirmBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView10" />

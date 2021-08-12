@@ -23,6 +23,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Hello what can I help? "
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -33,6 +34,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="i want to add a contact"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -44,6 +46,8 @@
         android:layout_marginEnd="160dp"
         android:layout_marginBottom="8dp"
         android:text="Eztalk here"
+        android:background="@color/blue_crayola"
+        app:backgroundTint="@color/blue_crayola"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
