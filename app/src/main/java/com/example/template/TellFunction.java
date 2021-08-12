@@ -7,19 +7,24 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ContactList extends AppCompatActivity {
+public class TellFunction extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact_list);
-        Button Tellbutton = findViewById(R.id.Tellbutton);
-        Tellbutton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_tell_function);
+
+        Button Contact = findViewById(R.id.talkbButton);
+        Contact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ContactList.this,TellFunction.class);
+                Intent intent = new Intent(TellFunction.this, addContact.class);
                 startActivity(intent);
             }
         });
+
+
+
     }
 }

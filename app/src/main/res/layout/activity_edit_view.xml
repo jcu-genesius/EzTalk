@@ -16,14 +16,15 @@
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="16dp"
+        android:checked="true"
         android:text="Uni Friend"
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
         android:textSize="16sp"
@@ -84,7 +85,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:text="Relationship :"
         android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
@@ -99,14 +100,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:text="cancel"
+        android:text="Cancel"
         android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
         app:layout_constraintBottom_toTopOf="@+id/confirmBtn"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -114,12 +115,13 @@
         android:layout_marginEnd="6dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:text="Justina"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/editNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -127,10 +129,11 @@
         android:layout_marginEnd="6dp"
         android:ems="10"
         android:inputType="number"
+        android:text="123456789"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextName" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -145,7 +148,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/savebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="132dp"

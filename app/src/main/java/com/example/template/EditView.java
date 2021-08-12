@@ -7,17 +7,18 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ContactList extends AppCompatActivity {
+public class EditView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact_list);
-        Button Tellbutton = findViewById(R.id.Tellbutton);
-        Tellbutton.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_edit_view);
+
+        Button savebtn = findViewById(R.id.savebtn);
+        savebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ContactList.this,TellFunction.class);
+                Intent intent = new Intent(EditView.this,comfirmAdd.class);
                 startActivity(intent);
             }
         });
