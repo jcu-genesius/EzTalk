@@ -8,18 +8,18 @@ import android.view.View;
 import android.widget.Button;
 
 public class HomepageActivity extends AppCompatActivity {
-    private Button Contact;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
-
-        Contact = findViewById(R.id.ContactBtn);
+        Button Contact = findViewById(R.id.ContactBtn);
         Contact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomepageActivity.this,ContactList.class));
+                Intent intent =new Intent(getApplicationContext(),ContactList.class);
+                startActivity(intent);
             }
         });
 
