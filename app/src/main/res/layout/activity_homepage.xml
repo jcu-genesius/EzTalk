@@ -25,6 +25,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="167dp"
         android:text="My contact"
+        android:background="@color/blue_crayola"
+        app:backgroundTint="@color/blue_crayola"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
