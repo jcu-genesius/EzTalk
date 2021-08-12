@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Template">
+        <activity android:name=".Contact_edit"></activity>
         <activity android:name=".HomepageActivity" />
         <activity android:name=".StylesheetActivity" />
         <activity android:name=".RegistrationActivity" />

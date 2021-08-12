@@ -15,6 +15,14 @@ public class HomepageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
+        Contact = findViewById(R.id.ContactBtn);
+        Contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomepageActivity.this,ContactList.class));
+            }
+        });
+
     }
 
 }
