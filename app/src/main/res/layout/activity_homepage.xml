@@ -17,19 +17,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
         android:id="@+id/ContactBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="167dp"
-        android:text="My contact"
+        android:layout_marginTop="24dp"
         android:background="@color/blue_crayola"
+        android:text="My contact"
         app:backgroundTint="@color/blue_crayola"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSecondActivity" />
 
+    <Button
+        android:id="@+id/settingsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@color/blue_crayola"
+        android:text="My Settings"
+        app:backgroundTint="@color/blue_crayola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContactBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
