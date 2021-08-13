@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">EzTalk</string>
+    <string name="update_settings">Update Settings</string>
+    <string name="settings">Settings</string>
     <string-array name="relation">
         <item>Family</item>
         <item>Friends </item>
